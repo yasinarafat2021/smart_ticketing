@@ -4,8 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>smart ticketing</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <header>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About</a>
+                </li>
+                <li><a>Distance</a></li>
+                <li><a>Search</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost text-xl">T-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Distance</a></li>
+                <li><a>Search</a></li>
+            </ul>
+            </div>
+            <div class="navbar-end">
+            <a class="btn text-lime-500">Bus <img src="images/bus-icon.png" alt=""></a>
+            </div>
+        </div>
+        <div class="hero h-screen" style="background-image: url(images/banner.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+                <h1 class="mb-5 text-4xl font-bold">End-to-End Travel with</h1><br>
+                <h1 class="mb-5 text-4xl font-bold">Hanif Paribahan</h1>
+                <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                <button class="btn btn-success "> Buy Tickets</button>
+            </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+    </main>
+    <h2 class="text-3xl text-center my-24 font-extrabold text-[#131318] mb-5">Best offers for you</h2>
+    <body class="bg-gray-100">
+        <div class="container mx-auto px-4 py-8">
+            <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-warning p-4 rounded-lg shadow-md">
+                    <h2 class="text-lg font-semibold mb-2">15% OFF</h2>
+                    <p>on your next purchase </p><br>
+                    <p>use by january 2024 </p>
+                </div>
+                <div class="bg-error p-4 rounded-lg shadow-md">
+                    <h2 class="text-lg font-semibold mb-2">20 % OFF</h2>
+                    <p>on your next purchase</p><br>
+                    <p>>use by january 2024</p>
+                </div>
+            </section>
+        </div>
+    </body>
+    <button class="btn btn-outline btn-success rounded-md">Success</button>
+    
+    <!-- footer section -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <h4 class="text-lg 	base-100 font-bold mb-4">P-Ticket</h4>
+                    <p>p-ticket is a digital platform to make your </p><br>
+                    <p>daily commuting better . </p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4"></h4>
+                    
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Download our app</h4>
+                    <div class="border-neutral-200">
+                        <img src="images/playstore.png" alt="">
+                        <h1>Google Play</h1>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-8 border-gray-700">
+            <div class="flex justify-between items-center">
+                <p class="text-sm">&copy; all rights reserved, P ticket servers limited 2024.</p>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-gray-300 hover:text-white text-sm">Terms & condition</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white text-sm">Return & refund policy</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white text-sm">privacy policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
     
 </body>
 </html>
